@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Paris Caffe</string>
+    <string name="phone_number">Phone: 0336 401 758</string>
+    <string name="address">Strada Democrației 1, Galați 800101</string>
+    <string name="open_hours">Mon-San: 10AM-11PM</string>
+    <string name="description">Paris Cafe is the best coffe shop from the town. It is a relaxing place with great coffe. Make reservation right now </string>
+</resources>

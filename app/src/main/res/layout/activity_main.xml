@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/paris_caffe"
+        tools:ignore="Suspicious0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/paddingLeft"
+        android:paddingTop="@dimen/paddingTopFirst"
+        android:text="@string/phone_number"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/paddingLeft"
+        android:paddingTop="@dimen/paddingTop"
+        android:text="@string/address"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/paddingLeft"
+        android:paddingTop="@dimen/paddingTop"
+        android:text="@string/open_hours"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/paddingLeft"
+        android:paddingTop="@dimen/paddingTop"
+        android:text="@string/description"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize" />
+</LinearLayout>
